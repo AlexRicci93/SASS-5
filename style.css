@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: red;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 50px;
+}
+section div {
+  font-size: 30px;
+  color: aliceblue;
+  height: 100%;
+  width: 10%;
+  border: 2px solid white;
+  text-align: center;
+}
+section div:nth-child(0n+1) {
+  background-color: #3333EE;
+}
+section div:nth-child(0n+2) {
+  background-color: #6622FF;
+}
+section div:nth-child(0n+3) {
+  background-color: #22BBFF;
+}
+section div:nth-child(0n+4) {
+  background-color: #887766;
+}
+section div:nth-child(0n+5) {
+  background-color: #FF5588;
+}
+section div:nth-child(0n+6) {
+  background-color: #EE3322;
+}
+section div:nth-child(0n+7) {
+  background-color: #995566;
+}
+section div:nth-child(0n+8) {
+  background-color: #8877AA;
+}
+section div:nth-child(0n+9) {
+  background-color: #771122;
+}
+section div:nth-child(0n+10) {
+  background-color: #BBBBBB;
+}
+section div:nth-child(0n+11) {
+  background-color: #33CCAA;
+}
+section div:nth-child(0n+12) {
+  background-color: #9988BB;
+}
+
+/*# sourceMappingURL=style.css.map */
